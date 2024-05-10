@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>this is contact page</h1>
+<fieldset>
+  <legend>Your Feedbak</legend>
+<form >
+  <h1>Your personal information</h1>
+  <p>
+  <label for="mail"> Email</label>
+  <input type="email" id="mail" name="mail" placeholder="example@gmail.com" required>
+</p>
+
+
+  <p>
+  <label for="username">Username</label>
+  <input type="text" id="username" name="username" placeholder="username" maxlength="20" required>
+  </p>
+  <p>
+  <label for="number">Phone number</label>
+  <input type="text" name="number" id="number" placeholder="xxxxxxxxxx" maxlength="10">
+</p>
+
+<p>
+  <label for="Address">Address</label>
+  <input type="text" id="Address" name="Address" placeholder="Sundarijal 01 KTM">
+</p>
+
+<h1>Select your gender</h1>
+  <p>
+  <label for="male">male</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="female">female</label>
+  <input type="radio" id="female" name="gender" value="female">
+
+  <label for="others">others</label>
+  <input type="radio" id="others" checked name="gender" value="others">
+
+</p>
+
+<!--this is checkbox-->
+<h1>Your favrouit hobbies</h1>
+  <p>
+  <label for="indoor game">Indoor Game</label>
+  <input type="checkbox" id="indoor game" name="hobbies" value="indoor game">
+  <br>
+  <label for="outdoor game">Outdoor Game</label>
+  <input type="checkbox" id="outdoor game" name="hobbies" value="outdoor game">
+<br>
+  <label for="reading">Reading</label>
+  <input type="checkbox" id="reading" name="hobbies" value="reading">
+<br>  <label for="watching movies">Watching Movies</label>
+  <input type="checkbox" id="watching movies" name="hobbies" value="watching movies">
+  <br>
+  <label for="doing adventurous things">Doing Adventurous Things</label>
+  <input type="checkbox" id="doing adventurous things" name="hobbies" value="doing adventurous things">
+
+
+</p>
+<!--this is select and option-->
+<p>
+  <label for="Continent">Select your Continent</label>
+  <select name="Continent" id="Continent">
+    <option value="Asia">Asia</option>
+    <option value="Africa">Africa</option>
+    <option value="North America">North America</option>
+    <option value="South America">South America</option>
+    <option value="Antarctica">Antarctica</option>
+    <option value="Europe">Europe</option>
+    <option value="Australia">Australia</option>
+  </select>
+</p>
+
+<p>
+  <label for="date">Form submit date</label>
+  <input type="date" id="date" name="date">
+</p>
+
+<p>
+<label for="color">favrouit color</label>
+<input type="color" id="color" name="color">
+</p>
+
+<!--this is textedit-->
+
+<p><label for="messages"> Comment</label><br>
+<textarea name="messages" id="messages" cols="30" rows="10" placeholder="type Comment"></textarea>
+</p>
+
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+
+</form>
+</fieldset>
+
+
+
+
+
+</body>
+</html>
